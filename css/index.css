@@ -1,0 +1,94 @@
+#banner {
+  height: 560px;
+}
+#banner img {
+  height: 561px;
+  width: 100%;
+}
+.info {
+  margin-top: 30px;
+  height: 530px;
+}
+.info .imginfo {
+  float: left;
+  width: 360px;
+  margin-right: 100px;
+}
+.info .imginfo .card {
+  margin-bottom: 40px;
+  width: 360px;
+  height: 225px;
+}
+.info .txt {
+  float: left;
+  width: 700px;
+  margin-top: 25px;
+  border-top: 2px solid #7f7f7f;
+  padding-top: 30px;
+}
+.info .txt .title {
+  height: 18px;
+  font-size: 18px;
+  line-height: 18px;
+}
+.info .txt .title .mini {
+  font-size: 12px;
+  color: #b9adb2;
+}
+.info .txt .title .stickRight {
+  float: right;
+}
+.info .txt .newsList li {
+  height: 75px;
+  border-bottom: 1px solid #dddddd;
+  background-image: url(../img/icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  line-height: 75px;
+  text-indent: 2em;
+}
+.info .txt .newsList span {
+  float: right;
+  font-size: 12px;
+  color: #b9adb2;
+}
+.show {
+  width: 1160px;
+  background-color: #225ea7;
+  overflow: hidden;
+}
+.show img {
+  display: block;
+}
+.key {
+  margin: 50px auto 30px;
+  padding-top: 50px;
+  width: 1100px;
+  border-top: 3px #7f7f7f solid;
+}
+.key .keyTxt {
+  height: 115px;
+}
+.key .keyTxt p {
+  margin-top: 20px;
+}
+.imgList {
+  height: 685px;
+}
+.imgList .imgCard {
+  float: left;
+  height: 325px;
+}
+.imgList .imgCard img {
+  width: 360px;
+  height: 250px;
+}
+.imgList .imgCard p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.imgList .imgCard:nth-child(2),
+.imgList .imgCard:nth-child(5) {
+  margin: 0 40px;
+}

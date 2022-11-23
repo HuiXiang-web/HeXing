@@ -1,0 +1,63 @@
+/* 头部 */
+#header {
+  height: 100px;
+}
+#header .logo {
+  height: 90px;
+  width: 195px;
+  float: left;
+  margin-left: 20px;
+}
+#header ul {
+  float: left;
+  margin-left: 65px;
+}
+#header ul li {
+  float: left;
+}
+#header ul li a {
+  width: 125px;
+  text-align: center;
+  line-height: 100px;
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+}
+#main {
+  overflow: hidden;
+}
+/* 底部 */
+#footer {
+  background-color: #2e2e2e;
+  text-align: center;
+  clear: both;
+  overflow: hidden;
+}
+#footer img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#footer span {
+  display: inline-block;
+  height: 12px;
+  width: 108px;
+  line-height: 11px;
+  border-right: #4b4b4b solid 1px;
+}
+#footer span a {
+  font-size: 11px;
+  color: #999999;
+}
+#footer .last {
+  border: none;
+  margin-bottom: 30px;
+}
+#footer p {
+  height: 28px;
+  line-height: 28px;
+  font-size: 15px;
+  color: #999999;
+}
+#footer p:last-child {
+  margin-bottom: 15px;
+}

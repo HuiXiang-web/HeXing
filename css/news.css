@@ -1,0 +1,47 @@
+#main .content h1 {
+  margin: 28px auto 40px;
+  font-style: italic;
+  width: 1160px;
+  text-align: center;
+}
+#main .content li {
+  background-image: url(../img/icon.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  height: 56px;
+  line-height: 56px;
+  border-bottom: 1px solid #dddddd;
+}
+#main .content li span {
+  font-size: 11px;
+  color: #787888;
+  float: right;
+}
+#main .content .btnList {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  float: right;
+  height: 42px;
+  line-height: 42px;
+}
+#main .content .btnList input {
+  background-color: #fff;
+  border: #dddddd solid;
+  color: #b1abab;
+  float: right;
+  margin: auto 12px;
+  font-weight: bold;
+}
+#main .content .btnList .p {
+  box-sizing: border-box;
+  width: 39px;
+  height: 39px;
+}
+#main .content .btnList .current {
+  background-color: #efefef;
+}
+#main .content .btnList .pgup,
+#main .content .btnList .pgdn {
+  width: 55px;
+  height: 39px;
+}

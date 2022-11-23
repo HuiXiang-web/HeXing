@@ -1,0 +1,32 @@
+* {
+  /* 清除内外边距 */
+  padding: 0;
+  margin: 0;
+}
+b,
+strong {
+  font-weight: normal;
+}
+em,
+i {
+  font-style: normal;
+}
+a,
+u,
+s,
+del {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+body {
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+/* 版心 */
+.wrapper {
+  margin: 0 auto;
+  width: 1160px;
+}
